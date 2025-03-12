@@ -25,7 +25,7 @@ const initialState: ListingsState = {
   searchCriteria: "",
   status: "idle",
   sortProp: {
-    order: "asc",
+    order: "desc",
     prop: "zillowData.dateSold",
   },
 };

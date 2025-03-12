@@ -20,6 +20,7 @@ In the project directory, you can run:
 8. Add routing
 9. Add elispsis on cards
 10. Do responsive header with logo
+11. Move responsive breakpoints to vars
 
 # Tasks
 
