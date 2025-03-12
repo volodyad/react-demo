@@ -16,9 +16,10 @@ In the project directory, you can run:
 4. Implement lazy loading for properties and add a loader.
 5. Handle and display errors on the UI (e.g., backend failure).
 6. Implement map functionality.
-7. Property image is hardcoded; it is not clear how to get images from UserData.linkToPhotos at their URL to a 9. different image storage provider
+7. Property image is hardcoded; it is not clear how to get images from UserData.linkToPhotos at their URL to a different image storage provider
 8. Add routing
 9. Add elispsis on cards
+10. Do responsive header with logo
 
 # Tasks
 
