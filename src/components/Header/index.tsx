@@ -11,8 +11,8 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <header className={styles.container}>
       <SearchBar onSearch={onSearch} />
-    </div>
+    </header>
   );
 };

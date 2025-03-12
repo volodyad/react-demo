@@ -8,9 +8,7 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-        <header>
-          <Header></Header>
-        </header>
+        <Header />
         <div>
           <ListingsPage />
         </div>
