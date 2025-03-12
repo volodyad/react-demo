@@ -7,11 +7,11 @@ import { Provider } from "react-redux";
 function App() {
   return (
     <Provider store={store}>
-      <div className="app">
-        <header className="header">
+      <div>
+        <header>
           <Header></Header>
         </header>
-        <div className="content">
+        <div>
           <ListingsPage />
         </div>
       </div>
