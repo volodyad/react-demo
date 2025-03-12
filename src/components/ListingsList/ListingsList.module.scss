@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  padding: 22px;
+  padding-top: 0;
+  gap: 16px;
+  overflow-y: scroll;
+
+  .noDataMessage {
+    padding-top:50px;
+  }
+}

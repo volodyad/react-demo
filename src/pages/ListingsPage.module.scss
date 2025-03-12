@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+
+  .map {
+    flex: 1 1 60%;
+    height: calc(100vh - var(--header-height));
+  }
+  .list {
+    flex: 1 1 40%;
+    height: calc(100vh - var(--header-height));
+    overflow-y: scroll;
+  }
+
+  @media (max-width: 767px) {
+    .map {
+      display: none;
+    }
+    .list {
+      flex: 1 1 100%
+    }
+  }
+
+  @media (max-width: 1279px) {
+    .map {
+      flex: 1 1 50%;
+    }
+    .list {
+      flex: 1 1 50%;
+    }
+  }
+}

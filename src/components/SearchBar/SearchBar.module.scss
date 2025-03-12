@@ -1,0 +1,33 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #fff;
+
+  &:focus-within {
+    border-color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: black;
+    }
+  }
+  
+  .input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    background: transparent;
+  }
+}
+
+
