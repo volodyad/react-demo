@@ -24,10 +24,10 @@ In the project directory, you can run:
 
 # Tasks
 
-You don’t have to embed the map by default - Not impelmented
-By default, show all the properties we have in our inventory - Done
-Show the “Make your strongest offer when you buy with Opendoor” banner after the first 2 items - Done
-Allow the user to sort by Newest/Oldest items - Not done
-Allow the user to sort by listing status (”sold” or “active”) - Done
-Allow the user to search for listings by property address - Done
-Make it look good in Mobile - Done
+1. You don’t have to embed the map by default - Not impelmented
+2. By default, show all the properties we have in our inventory - Done
+3. Show the “Make your strongest offer when you buy with Opendoor” banner after the first 2 items - Done
+4. Allow the user to sort by Newest/Oldest items - Not done
+5. Allow the user to sort by listing status (”sold” or “active”) - Done
+6. Allow the user to search for listings by property address - Done
+7. Make it look good in Mobile - Done
